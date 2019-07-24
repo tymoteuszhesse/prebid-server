@@ -1,5 +1,5 @@
 {
-  "id": "11111111",
+  "id": "test-imp-id",
   "banner": {
     "format": [
       {
@@ -14,8 +14,7 @@
   },
   "ext": {
     "appnexus": {
-      "placementId": 13232392
+      "placementId": 10433394
     }
   }
 }
-
