@@ -1,20 +1,18 @@
+
 {
-  "id": "11111111",
-  "banner": {
-    "format": [
-      {
-        "w": 300,
-        "h": 250
-      },
-      {
-        "w": 300,
-        "h": 600
+  "id": "test-request-id",
+  "imp": [
+    {
+      "ext": {
+        "prebid": {
+          "storedrequest": {
+            "id": "11111111"
+          }
+        }
       }
-    ]
-  },
-  "ext": {
-    "appnexus": {
-      "placementId": 13232392
     }
+  ],
+    "site": {
+    "page": "localhost"
   }
 }
