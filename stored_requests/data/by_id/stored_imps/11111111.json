@@ -1,20 +1,68 @@
 {
-  "id": "test-imp-id",
-  "banner": {
-    "format": [
-      {
-        "w": 300,
-        "h": 250
-      },
-      {
-        "w": 300,
-        "h": 600
-      }
-    ]
+  "id": "c8817e87-8a26-4124-94bd-1518900eecd9",
+  "source": {
+    "tid": "c8817e87-8a26-4124-94bd-1518900eecd9"
   },
-  "ext": {
-    "appnexus": {
-      "placementId": 10433394
+  "tmax": 1000,
+  "imp": [
+    {
+      "id": "video1",
+      "ext": {
+        "appnexus": {
+          "video": {
+            "skippable": true,
+            "playback_method": [
+              "auto_play_sound_off"
+            ]
+          },
+          "use_pmt_rule": false,
+          "placement_id": 13232361
+        }
+      },
+      "video": {
+        "playerSize": [
+          [
+            640,
+            480
+          ]
+        ],
+        "context": "instream",
+        "mimes": [
+          "video/mp4"
+        ],
+        "protocols": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "playbackmethod": [
+          2
+        ]
+      }
     }
+  ],
+  "test": 1,
+  "ext": {
+    "prebid": {
+      "targeting": {
+        "includewinners": true,
+        "includebidderkeys": false
+      }
+    }
+  },
+  "site": {
+    "publisher": {
+      "id": "c9d412ee-3cc6-4b66-9326-9f49d528f13e"
+    },
+    "page": "http://prebid.org/examples/video/jwplatform-pbserver-demo.html"
+  },
+  "device": {
+    "w": 678,
+    "h": 1097
   }
 }
